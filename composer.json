@@ -17,9 +17,15 @@
         "chat": "https://zendframework-slack.herokuapp.com",
         "forum": "https://discourse.zendframework.com/c/questions/components"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LucasGentry/zend-http"
+        }
+    ],
     "require": {
         "php": "^7.0 || ^8.0",
-        "zendframework/zend-http": "^2.0",
+        "zendframework/zend-http": "dev-php8-compatibility",
         "zendframework/zend-json": "^2.0 || ^3.0"
     },
     "require-dev": {
